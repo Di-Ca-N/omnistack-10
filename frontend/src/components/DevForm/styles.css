@@ -1,0 +1,68 @@
+strong {
+    font-size: 20px;
+    text-align: center;
+    display: block;
+    color: #333;
+}
+
+form {
+    margin-top: 30px;
+}
+
+form .input-block + .input-block {
+    margin-top: 20px;
+}
+
+form .input-group {
+    margin-top: 20px;
+    display: grid;
+    gap: 20px;
+    grid-template-columns: 1fr 1fr;
+}
+
+form .input-block label {
+    color: #acacac;
+    font-size: 14px;
+    font-weight: bold;
+    display: block;
+}
+
+form .input-group .input-block {
+    margin-top: 0;
+}
+
+form .input-block input,
+form .input-block textarea {
+    width: 100%;
+    max-width: 100%;
+    font-size: 14px;
+    color: #666666;
+    border: 0;
+    border-bottom: 1px solid #eeeeee;
+}
+
+form .input-block input {
+    height: 32px;
+}
+
+form .input-block textarea {
+    resize: vertical;
+    height: 100px;
+}
+
+form button[type='submit'] {
+    width: 100%;
+    border: 0;
+    margin-top: 30px;
+    background-color: #7D40E7;
+    border-radius: 2px;
+    padding: 15px 20px;
+    font-size: 16px;
+    color: #fff;
+    cursor: pointer;
+    transition: background-color 0.5s;
+}
+
+form button[type='submit']:hover {
+    background-color: #6931ca;
+}
