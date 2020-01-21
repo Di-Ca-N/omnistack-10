@@ -1,2 +1,3 @@
-# omnistack-10
-Project developed
+# DevRadar
+
+Projeto desenvolvido durante a 10ª Edição da Semana Omnistack
